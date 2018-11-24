@@ -1,0 +1,43 @@
+{
+  "name": "example-api-client",
+  "version": "6.4.1-SNAPSHOT.201811242019",
+  "description": "OpenAPI client for example-api-client",
+  "author": "OpenAPI-Generator Contributors",
+  "keywords": [
+    "openapi-client",
+    "openapi-generator"
+  ],
+  "license": "Unlicense",
+  "peerDependencies": {
+    "@angular/core": "^7.0.0",
+    "@angular/http": "^7.0.0",
+    "@angular/common": "^7.0.0",
+    "@angular/compiler": "^7.0.0",
+    "core-js": "^2.4.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^6.1.0",
+    "zone.js": "^0.7.6"
+  },
+  "devDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/compiler": "^7.0.0",
+    "@angular/compiler-cli": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "@angular/http": "^7.0.0",
+    "@angular/platform-browser": "^7.0.0",
+    "ng-packagr": "^2.4.1",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^6.1.0",
+    "tsickle": "^0.34.0",
+    "typescript": ">=3.0",
+    "zone.js": "^0.7.6"
+  },
+  "main": "bundles/example-api-client.umd.js",
+  "module": "esm5/example-api-client.js",
+  "es2015": "esm2015/example-api-client.js",
+  "typings": "example-api-client.d.ts",
+  "metadata": "example-api-client.metadata.json",
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
