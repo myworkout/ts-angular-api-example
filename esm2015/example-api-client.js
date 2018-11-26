@@ -112,7 +112,7 @@ class TeamService {
      */
     constructor(httpClient, basePath, configuration) {
         this.httpClient = httpClient;
-        this.basePath = 'http://localhost:8080';
+        this.basePath = 'http://localhost:8080/api';
         this.defaultHeaders = new HttpHeaders();
         this.configuration = new Configuration();
         if (configuration) {
@@ -308,7 +308,7 @@ class UserService {
      */
     constructor(httpClient, basePath, configuration) {
         this.httpClient = httpClient;
-        this.basePath = 'http://localhost:8080';
+        this.basePath = 'http://localhost:8080/api';
         this.defaultHeaders = new HttpHeaders();
         this.configuration = new Configuration();
         if (configuration) {

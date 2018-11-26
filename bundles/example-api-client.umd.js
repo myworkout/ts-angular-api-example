@@ -85,7 +85,7 @@ var Configuration = /** @class */ (function () {
 var TeamService = /** @class */ (function () {
     function TeamService(httpClient, basePath, configuration) {
         this.httpClient = httpClient;
-        this.basePath = 'http://localhost:8080';
+        this.basePath = 'http://localhost:8080/api';
         this.defaultHeaders = new http.HttpHeaders();
         this.configuration = new Configuration();
         if (configuration) {
@@ -223,7 +223,7 @@ TeamService.ngInjectableDef = core.defineInjectable({ factory: function TeamServ
 var UserService = /** @class */ (function () {
     function UserService(httpClient, basePath, configuration) {
         this.httpClient = httpClient;
-        this.basePath = 'http://localhost:8080';
+        this.basePath = 'http://localhost:8080/api';
         this.defaultHeaders = new http.HttpHeaders();
         this.configuration = new Configuration();
         if (configuration) {
