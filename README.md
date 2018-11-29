@@ -1,4 +1,4 @@
-## example-api-client@6.4.1-SNAPSHOT.201811260923
+## example-api-client@6.4.1-SNAPSHOT.201811291330
 
 ### Building
 
@@ -19,7 +19,7 @@ Navigate to the folder of your consuming project and run one of next commands.
 _published:_
 
 ```
-npm install example-api-client@6.4.1-SNAPSHOT.201811260923 --save
+npm install example-api-client@6.4.1-SNAPSHOT.201811291330 --save
 ```
 
 _without publishing (not recommended):_

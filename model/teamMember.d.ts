@@ -11,9 +11,9 @@
  */
 export interface TeamMember {
     /**
-     * team member id
+     * team member's user id
      */
-    id?: number;
+    user_id?: number;
     /**
      * team member name
      */
